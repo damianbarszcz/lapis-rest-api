@@ -19,7 +19,6 @@ shop_categories[5]={["name"]="TV"}
 shop_categories[6]={["name"]="Accessories"}
 
 shop_products[1] = {
-  ["product_id"]=1,
   ["name"]="HP Pavilion 15 Ryzen 7-5700/16GB/512/Win11 White",
   ["category"]="Laptops",
   ["price"]=3249,
@@ -27,7 +26,6 @@ shop_products[1] = {
 }
 
 shop_products[2] = {
-  ["product_id"]=2,
   ["name"]="Samsung Galaxy S21 G991B 8/128 Dual SIM Grey 5G",
   ["category"]="Smartphones",
   ["price"]=2799,
@@ -35,7 +33,6 @@ shop_products[2] = {
 }
 
 shop_products[3] = {
-  ["product_id"]=3,
   ["name"]="Nintendo Switch Joy-Con",
   ["category"]="Gamming",
   ["price"]=1349,
@@ -43,7 +40,6 @@ shop_products[3] = {
 }
 
 shop_products[4] = {
-  ["product_id"]=4,
   ["name"]="Samsung Portable SSD T5 1TB USB 3.2 Gen. 2",
   ["category"]="Computer components",
   ["price"]=519,
@@ -51,7 +47,6 @@ shop_products[4] = {
 }
 
 shop_products[5] = {
-  ["product_id"]=5,
   ["name"]="TCL 43P615",
   ["category"]="TV",
   ["price"]=1349,
@@ -59,7 +54,6 @@ shop_products[5] = {
 }
 
 shop_products[6] = {
-  ["product_id"]=6,
   ["name"]="Logitech M185",
   ["category"]="Accessories",
   ["price"]=55,
