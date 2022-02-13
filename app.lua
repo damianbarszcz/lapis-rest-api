@@ -77,7 +77,7 @@ app:post("/products/create", json_params(function(self)
   shop_products[#shop_products+1]={
     ["name"]=self.params.name,
     ["price"]=self.params.price,
-    ["images"]=self.params.description,
+    ["images"]=self.params.images,
     ["category"]=self.params.category
   }
   return json_parser.encode(shop_products[#shop_products]).." added"
@@ -104,7 +104,7 @@ app:put("/products/update/:id", json_params(function(self)
   shop_products[tonumber(self.params.id)]={
     ["name"]=self.params.name,
     ["price"]=self.params.price,
-    ["images"]=self.params.description,
+    ["images"]=self.params.images,
     ["category"]=self.params.category
   }
   return "product "..self.params.id.." is now "..json_parser.encode(shop_products[tonumber(self.params.id)])
